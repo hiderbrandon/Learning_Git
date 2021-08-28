@@ -4,12 +4,50 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Learning Git/GitHub</title>
+    <style>
+        body{
+          display:flex;
+          flex-direction: column;
+          justify-content:center;
+          background-color: #fff;
+        }
+        .img-container{
+          width: 80%;
+          height:720px;
+          margin: 2% 10% 0px 10%;
+          display:relative;
+        }
+        .git{
+            background-image: url("https://cdn.pixabay.com/photo/2017/08/05/11/24/logo-2582757_960_720.png");
+            background-position: center;
+            background-repeat: no-repeat;
+            height: 100%;
+            width: 100%;
+            min-width:700px;
+            border-radius: 50%;
+            animation-name:palpita;
+            animation-duration:3s;
+            animation-iteration-count:infinite;
+        }
+        @keyframes palpita {
+          0%{
+            transform: scale(1,1);
+          }
+          50%{
+            transform: scale(1.2,1.2);
+          }
+          100%{
+            transform: scale(1,1);
+          }
+        }
+    </style>
 </head>
 <body>
-	<div>
-		Body
-	</div>    
+        <div class="img-container">
+            <div class="git">
+            </div>
+        </div>
     <footer>
         <p> Footer </p>
     </footer>
