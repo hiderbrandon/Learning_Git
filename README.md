@@ -5,5 +5,5 @@
 * Gabriel Arango
 
 ## PREVIEW
-![preview](imgs/preview.jpeg)
+![preview](images/preview.jpeg)
 
