@@ -1,4 +1,4 @@
-# Learning_Git
+# Learning Git
 ## Members 🧑‍🦱 🤺 🤾
 * Hider Brandon Vargas Cordoba
 * Franco L. Matheo
